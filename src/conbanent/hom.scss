@@ -1,0 +1,102 @@
+.hom{
+    
+&__button{
+    position: sticky;
+    top: 0;
+    height: 10px;
+    width: 650px;
+  &--title{
+font-size: 24px;
+padding-left: 20px;
+
+  }
+}
+ &__button--btn{
+        border: none;
+        background-color: #ddd;
+        padding: 20px 0;
+        width: 50%;
+        filter: blur(1px);
+        opacity: 0.7;
+        
+
+    }
+   
+    &__button--btn1{
+        border: none;
+        background-color: #ddd;
+        padding: 20px 0;
+        width: 50%;
+        filter: blur(1px);
+        opacity: 0.7;
+    }
+    &__leni{
+        max-width: 80px;
+        width: 100%;
+        z-index: 11;
+        margin: 0 auto;
+        margin-top: 5px;
+        display: block;
+        border: 2px solid transparent;
+    }
+    &__leni1{
+        max-width: 80px;
+        width: 100%;
+        z-index: 11;
+        margin: 0 auto;
+        margin-top: 5px;
+        display: block;
+        border: 2px solid blue;
+    }
+.row__enner{
+    max-width: 650px;
+    width: 100%;
+    display: block;
+    .img1{
+       display: block;
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+
+    }
+    .icons{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    &__sms{
+        color: #383535;
+    }
+    &__retvet{
+        color: #9e9898;
+
+    }
+    &__like{
+        color: #1f1d1d ;
+    }
+    &__statestika{
+        color: #9e9898;
+
+    }
+    &__post{
+        color: #9e9898;
+
+    }
+    }
+ 
+}
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+}
+
+@media screen and (max-width:1250px){
+    .hom{
+        &__button{
+            width: 100%;
+        }
+    }
+}

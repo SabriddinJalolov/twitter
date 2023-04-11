@@ -1,0 +1,99 @@
+.nav{
+   position: sticky;
+    top: 0;
+height: 100vh;
+
+    z-index: 11;   
+ padding-right: 20px;
+ border-right: 1px solid #d8d8d8;
+ &__enner{
+     box-sizing: border-box;
+    margin-left: 20px;
+ }
+ .logo-enner{
+    object-fit: cover;
+    vertical-align: middle;
+ }
+    .leni{
+        font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 24px;
+    }
+ 
+   
+    .wrapper{
+        position: relative;
+        &--border{
+            padding: 0 20px;
+&:hover{
+    background-color: #a89f9f;
+    border-radius: 20px;
+    width: 200px;
+
+}   
+   }
+  
+        &__btn{
+    background: #1D9BF0;
+    border-radius: 27.5px;
+    padding: 15px 90px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+        }
+        &__title{
+            font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+        }
+       
+        &__text{
+            font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+opacity: 0.6;
+        }
+        &__enner{
+            padding-left: 10px;
+            padding-right: 42px;
+            
+        }
+      
+    }
+
+}
+
+@media screen and (max-width:1200px){
+    .leni{
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .nav{
+        display: none;
+    }
+}
+@media screen and (max-width:1200px){
+    
+    .wrapper--border{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+        &:hover{
+            background-color: #a89f9f;
+            border-radius: 20px;
+            max-width: 50px;
+        } 
+    }}
